@@ -1,5 +1,4 @@
 import random
-print("welcome to the game.")
 
 while True:
   #Ask for input
