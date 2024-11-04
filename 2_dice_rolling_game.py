@@ -1,4 +1,5 @@
 import random
+print("welcome to the game.")
 
 while True:
   #Ask for input
@@ -15,6 +16,8 @@ while True:
   elif(a == "n"):
     print("Thank You For Playing!")
     break
+
+
 
   #End of code
     
