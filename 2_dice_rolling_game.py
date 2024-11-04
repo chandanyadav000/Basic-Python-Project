@@ -1,5 +1,5 @@
 import random
-
+print("Welcome to the game.")
 while True:
   #Ask for input
   a = input("Roll the dice? (y/n):").lower()
