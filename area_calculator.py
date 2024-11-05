@@ -4,8 +4,8 @@ while (True):
   x = '''
 Press 1 to get the area of square 🟨.
 Press 2 to get the area of rectangle 🟩.
-press 3 to get the area of circle.
-press 4 to get the area of triangle
+press 3 to get the area of circle🔵.
+press 4 to get the area of triangle 📐.
 press 5 to close.
 '''
   print(x)
@@ -19,7 +19,7 @@ press 5 to close.
       print("Enter valid value.")
 
   #for valid number check
-  if(y != 1 and y != 2 and y != 3 and y != 4 and y != 5):
+  if(y not in [1,2,3,4,5]):
       print("Enter valid number.")
 
   # for square 🟨
