@@ -17,5 +17,3 @@ while(a == "y"):
 #If the choice is NO!
 if(a == "n"):
   print("Thanks for playing.")
-
-#End of code
